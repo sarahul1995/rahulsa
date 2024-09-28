@@ -1,4 +1,4 @@
-img.wp-smiley,
+/* img.wp-smiley,
 img.emoji {
     display: inline !important;
     border: none !important;
@@ -2436,6 +2436,7 @@ img.emoji {
                                                                                                 }
                                                                                             }
                                                                                         }
+
                                                                                     }
                                                                                 }
                                                                             }
@@ -2459,4 +2460,84 @@ img.emoji {
     }
 }
 }
+}
+*/
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header h2 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }

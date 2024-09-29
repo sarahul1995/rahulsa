@@ -42,7 +42,7 @@ header {
             background-color: #f0f0f0; /* Header background color */
         }
 img {
-            max-width: 100px; /* Adjust the width as needed */
+            max-width: 80px; /* Adjust the width as needed */
             height: auto;
         }
 
@@ -82,7 +82,7 @@ img {
 }
 
 #hero .btn:hover {
-    background-color: light-green;
+    background-color: #4cae4c;
 }
 
 /* Footer */

@@ -7,13 +7,13 @@
 }
 
 body {
-    background-color: #f4f4f9;
+    background-color: lightcyan;
     color: #333;
 }
 
 nav {
     background-color: light-grey;
-    padding: 15px;
+    padding: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;

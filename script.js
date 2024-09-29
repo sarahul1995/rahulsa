@@ -4,6 +4,6 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
         e.preventDefault();
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
-        targetElement.scrollIntoView({ behavior: 'smooth' });
+       // targetElement.scrollIntoView({ behavior: 'smooth' });
     });
 });

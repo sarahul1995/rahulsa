@@ -12,8 +12,8 @@ body {
 }
 
 nav {
-    background-color: cyan;
-    padding: 8px;
+    background-color: light-cyan;
+    padding: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@ header {
             background-color: #f0f0f0; /* Header background color */
         }
 img {
-            max-width: 80px; /* Adjust the width as needed */
+            max-width: 100px; /* Adjust the width as needed */
             height: auto;
         }
 

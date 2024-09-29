@@ -1,10 +1,10 @@
 <!-- submit_contact.php -->
 <?php
 // Database connection parameters
-$serverName = "DESKTOP-348H65V\SQLEXPRESS"; // e.g., localhost
+$serverName = "DESKTOP-348H65V"; // e.g., localhost
 $connectionOptions = array(
     "Database" => "website", // your database name
-    "Uid" => "DESKTOP-348H65V\Rahul Das", // your SQL Server username
+    "Uid" => "Rahul Das", // your SQL Server username
     "PWD" => "" // your SQL Server password
     "TrustServerCertificate" => true
 );

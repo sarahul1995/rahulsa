@@ -34,9 +34,17 @@ nav ul li a {
     font-size: 18px;
 }
 
-nav .logo h1 {
-    color: #ffffff;
-}
+  header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; /* Header background color */
+            padding: 20px; /* Space around the logo */
+        }
+        img {
+            max-width: 40px; /* Adjust the width as needed */
+            height: auto;
+        }
 
 /* Hero Section */
 #hero {

@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-    background-color: #4cae4c;
+    background-color: cyan;
     padding: 8px;
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: green;
+    color: #1f2937;
     text-decoration: none;
     font-size: 20px;
 }

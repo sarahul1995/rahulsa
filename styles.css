@@ -48,7 +48,7 @@ nav ul li a {
 
 /* Hero Section */
 #hero {
-    background-image: url('images/hero-bg.jpg');
+    background-image: url('images/bg.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;

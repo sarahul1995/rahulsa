@@ -3,44 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rahul Shah - Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Rahul Shah | Data Engineering Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            color: #5cb85c;
+            margin-bottom: 10px;
+        }
+
+        .project {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .project h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .project p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .project ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .project ul li {
+            background-color: #5cb85c;
+            color: white;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .contact-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-link a {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-link a:hover {
+            background-color: #4cae4c;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <h1>Rahul Shah</h1>
+
+    <div class="container">
+        <h1>Projects</h1>
+
+        <div class="project">
+            <h2>1. Real-Time Analytics Platform</h2>
+            <p>Developed a real-time analytics platform for an e-commerce company using Apache Kafka and Spark Streaming. This system processes user clickstream data to provide insights on user behavior in real-time.</p>
+            <ul>
+                <li>Implemented data ingestion from multiple sources using Kafka.</li>
+                <li>Designed Spark jobs to analyze and aggregate data.</li>
+                <li>Created dashboards for visualizing real-time metrics using Grafana.</li>
+            </ul>
         </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-list">
-            <div class="project-item">
-                <h3>Data Pipeline for XYZ Company</h3>
-                <p>Built a scalable data pipeline using Python, Spark, and Kafka to process real-time data streams.</p>
-                <a href="https://github.com/rahulshah/pipeline-project" target="_blank">View Project on GitHub</a>
-            </div>
-            <div class="project-item">
-                <h3>Real-Time Data Analytics Dashboard</h3>
-                <p>Implemented a dashboard using Apache Spark and D3.js to visualize streaming data in real-time.</p>
-                <a href="https://github.com/rahulshah/analytics-dashboard" target="_blank">View Project on GitHub</a>
-            </div>
-            <!-- Add more project items here -->
+        <div class="project">
+            <h2>2. Data Warehousing Solution</h2>
+            <p>Built a comprehensive data warehousing solution on AWS Redshift for a retail client to store and analyze sales and inventory data, enabling advanced reporting capabilities.</p>
+            <ul>
+                <li>Designed ETL processes to extract data from various sources and load it into Redshift.</li>
+                <li>Optimized query performance by designing appropriate data distribution styles and sort keys.</li>
+                <li>Developed automated data quality checks to ensure data integrity.</li>
+            </ul>
         </div>
-    </section>
 
-    <footer>
-        <p>&copy; 2024 Rahul Shah. All Rights Reserved.</p>
-    </footer>
+        <div class="project">
+            <h2>3. Predictive Maintenance System</h2>
+            <p>Created a predictive maintenance system for a manufacturing company that uses machine learning algorithms to predict equipment failures based on historical data.</p>
+            <ul>
+                <li>Collected and processed time-series data from IoT sensors.</li>
+                <li>Developed machine learning models using Python and Scikit-learn.</li>
+                <li>Integrated the model with an alert system to notify maintenance teams of potential failures.</li>
+            </ul>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="project">
+            <h2>4. Automated ETL Pipeline</h2>
+            <p>Designed an automated ETL pipeline using Apache Airflow to streamline the data ingestion and transformation process for a financial services company.</p>
+            <ul>
+                <li>Configured Airflow to manage dependencies and scheduling of ETL jobs.</li>
+                <li>Utilized Python and SQL for data transformation tasks.</li>
+                <li>Implemented logging and monitoring for pipeline performance.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h2>5. Data Visualization Dashboard</h2>
+            <p>Developed an interactive data visualization dashboard using Tableau for a healthcare provider to track patient metrics and outcomes.</p>
+            <ul>
+                <li>Integrated data from various sources into Tableau for visualization.</li>
+                <li>Designed interactive dashboards to facilitate data exploration by stakeholders.</li>
+                <li>Trained staff on how to use the dashboard for reporting and analysis.</li>
+            </ul>
+        </div>
+
+        <div class="contact-link">
+            <a href="contact.html">Contact Me</a>
+        </div>
+
+    </div>
+
 </body>
 </html>

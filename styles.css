@@ -7,12 +7,12 @@
 }
 
 body {
-    background-color: light-cyan;
+    background-color: #66d975;
     color: #1f2937;
 }
 
 nav {
-    background-color: light-cyan;
+    background-color: #66d975;
     padding: 4px;
     display: flex;
     justify-content: space-between;

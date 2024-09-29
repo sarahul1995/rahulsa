@@ -8,11 +8,11 @@
 
 body {
     background-color: light-cyan;
-    color: #4cae4c;
+    color: #1f2937;
 }
 
 nav {
-    background-color: light-grey;
+    background-color: #4cae4c;
     padding: 8px;
     display: flex;
     justify-content: space-between;
